@@ -16,7 +16,7 @@ _____
 ### Links & Resources
 
     - [Eric Meyer's Reset CSS File](https://meyerweb.com/eric/tools/css/reset/)
-    - 
+    - [Hidden config files from 201 Class Repo](https://github.com/DeltaVCode/cedarrapids-code-201d10) 
     - 
 
 _____
