@@ -27,11 +27,9 @@ _____
 
 _____
 
-#### Table of Contents 
+#### Navigation
 
-
-
-
+    This is where I will put navigation links if/when necessary.
 
 _____
 
