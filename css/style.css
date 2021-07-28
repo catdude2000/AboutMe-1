@@ -1,0 +1,16 @@
+
+body {
+    background-color: pink;
+}
+
+header {
+    outline: dashed purple;
+}
+
+main {
+    outline: dotted black;
+}
+
+footer {
+    outline: solid black;
+}
