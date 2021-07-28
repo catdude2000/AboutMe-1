@@ -3,7 +3,7 @@ console.log('app.js file is connected');
 
 let person = prompt('Hello! What is your name?');
 console.log('Person name is: ' + person);
-  alert('Welcome, ' + person + '! Are you ready to play the game?');
+  prompt('Welcome, ' + person + '! Are you ready to play the game?');
 
 
 // let game = prompt('Welcome, ' + person + '! Are you ready to play the game?');
