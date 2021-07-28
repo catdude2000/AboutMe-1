@@ -1,9 +1,10 @@
 'use strict';
-console.log('js/app.js file is connected'); 
+console.log('app.js file is connected'); 
 
 function greeting() {
-    var person = prompt("Hi! What is your Name?");
-}       alert("Welcome to the Game, " + person + '!');
+var person = prompt("Hi! What is your Name?"); 
+     alert("Welcome to the Game, " + person + '!');
+}
 
 greeting()
 
