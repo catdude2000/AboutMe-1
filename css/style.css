@@ -11,6 +11,14 @@ main {
     outline: dotted black;
 }
 
+#aboutspot {
+    background-color: coral;
+}
+
+#workspot {
+    outline: cyan;
+}
+
 footer {
     outline: solid black;
 }
