@@ -9,13 +9,11 @@ var person = prompt("Hi! What is your Name?");
 greeting()
 
 function question1() {
-    var one = prompt ("Do I have a dog named Riku?")
-     one.toLowerCase;
+    var one = prompt ("Do I have a dog named Riku?");
+     one.toLowerCase();
 
         if (one === 'yes') {
-            console.log
-            //alert 
-            ("Correct! Thanks for remembering!");
+            alert("Correct! Thanks for remembering!");
         }
         else if (one === "no") {
             //console.log
@@ -30,29 +28,29 @@ function question1() {
 question1()
 
 function question2() {
-    var two = prompt("")
-    two.toLowerCase;
+    var two = prompt("");
+    two.toLowerCase();
 }
 
 question2()
 
 function question3() {
-    var three = prompt("")
-    three.toLowerCase;
+    var three = prompt("");
+    three.toLowerCase();
 }
 
 question3()
 
 function question4() {
-    var four = prompt("")
-    four.toLowerCase;
+    var four = prompt("");
+    four.toLowerCase();
 }
 
 question4()
 
 function question5() {
-    var five = prompt("")
-    five.toLowerCase;
+    var five = prompt("");
+    five.toLowerCase();
 }
 
 question5()
