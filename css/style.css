@@ -15,8 +15,13 @@ h1 {
 }
 
 nav {
-    background-color: #333; 
-    font-size: 25px; padding: 10px;
+    background-color: rgba(121, 121, 121, 0.685); 
+    font-size: 15px; padding: 10px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 ul {

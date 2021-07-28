@@ -9,6 +9,8 @@ console.log('Person said ' + game + ' to the game question!');
 
 
 
+
+
 // .toLowercase()
 
 // 5 yes or no questions, with lowercase validation
