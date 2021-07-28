@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;
+    outline: double blue;
 }
 
 body {
@@ -10,12 +10,18 @@ header {
     outline: dashed purple;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
 main {
     outline: dotted black;
 }
 
 #aboutspot {
-    background-color: coral;
+    background-color: deeppink;
 }
 
 #workspot {
