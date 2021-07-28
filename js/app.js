@@ -51,3 +51,10 @@ function question5() {
 }
 
 question5()
+
+function thanks() {
+    alert("Thanks for playing, " + person + '!');
+}
+
+thanks()
+
