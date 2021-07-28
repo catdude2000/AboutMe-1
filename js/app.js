@@ -1,63 +1,51 @@
 'use strict';
 console.log('app.js file is connected'); 
 
-function greeting() {
-var person = prompt("Hi! What is your Name?"); 
-     alert("Welcome to the Game, " + person + '!');
-}
+let person = prompt('Hello! What is your name?');
+console.log('Person name is: ' + person);
 
-greeting()
+let game = prompt('')
 
-function question1() {
-    var one = prompt ("Do I have a dog named Riku?");
-     one.toLowerCase();
 
-        if (one === 'yes') {
-            alert("Correct! Thanks for remembering!");
-        }
-        else if (one === "no") {
-            //console.log
-            alert("Wrong! I do, and he's a good boy!");
-        }
-        else {
-            //console.log
-            alert ("Please try again!");
-        }
-}
 
-question1()
 
-function question2() {
-    var two = prompt("");
-    two.toLowerCase();
-}
 
-question2()
 
-function question3() {
-    var three = prompt("");
-    three.toLowerCase();
-}
+ 
+// 5 yes or no questions, with lowercase validation
+// alert user with response letting them know if they got it right
+// console.log messages to notify if they are correct, then comment out and add
+// alert instead
 
-question3()
+// add a personalized welcome message
+// ask them their name with a prompt
+// display their name back to them with a custom greeting
+// display their name back to them in final message to the user 
 
-function question4() {
-    var four = prompt("");
-    four.toLowerCase();
-}
+// js file must contain 'use strict' 
+// ACP
+// experiment with css 
 
-question4()
+// part two
+// modify readme file as you go 
+// create a top ten at bottom of html page as an ordered list
+// add work and education history as an unordered list
 
-function question5() {
-    var five = prompt("");
-    five.toLowerCase();
-}
+// add 6th question - guess a number 
+// alert if too high or too low
+// give four chances to get it right
+// after four chances, tell user correct answer, use a loop 
 
-question5()
+// add a 7th question - multiple choice
+// 6 chances to get it right
+// will end when they get it right or when they run out of attempts
+// display all possible answers to user
 
-function thanks() {
-    alert("Thanks for playing, " + person + '!');
-}
+// keep track of total correct answers 
+// tell user how many they got correct out of 7
 
-thanks()
+// console.log questions being asked
+// don't use functions
 
+// use array for first five questions
+// make answer to number question a random number

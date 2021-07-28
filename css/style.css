@@ -1,5 +1,5 @@
 * {
-    outline: double blue;
+    outline: double black;
 }
 
 body {
@@ -8,6 +8,10 @@ body {
 
 header {
     outline: dashed purple;
+}
+
+nav {
+
 }
 
 ul {
