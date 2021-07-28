@@ -4,7 +4,10 @@ console.log('app.js file is connected');
 let person = prompt('Hello! What is your name?');
 console.log('Person name is: ' + person);
 
-let game = prompt('')
+let game = prompt('Welcome, ' + person + '! Are you ready to play the game?');
+console.log(person + 'said' + game);
+
+
 
 
 
