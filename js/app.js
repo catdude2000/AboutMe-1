@@ -11,15 +11,20 @@ greeting()
 function question1() {
     var one = prompt ("Do I have a dog named Riku?");
      one.toLowerCase;
-    if (one === 'yes') {
-     alert ("Correct! Thanks for remembering!");
-    }
-    else if (one === "no") {
-        alert("Wrong. I do, and he's a good good boy!");
-    }
-    else {
-        alert ("Please try again!");
-    }
+
+        if (one === 'yes') {
+            console.log
+            //alert 
+            ("Correct! Thanks for remembering!");
+        }
+        else if (one === "no") {
+            //console.log
+            alert("Wrong! I do, and he's a good boy!");
+        }
+        else {
+            //console.log
+            alert ("Please try again!");
+        }
 }
 
 question1()
