@@ -10,11 +10,11 @@ header {
     outline: dashed purple;
 }
 
-/*
-nav {
 
+nav {
+    background-color: #333; 
+    font-size: 25px; padding: 10px;
 }
-*/
 
 ul {
     list-style-type: none;

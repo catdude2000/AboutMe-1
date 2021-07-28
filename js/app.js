@@ -5,9 +5,11 @@ let person = prompt('Hello! What is your name?');
 console.log('Person name is: ' + person);
 
 let game = prompt('Welcome, ' + person + '! Are you ready to play the game?');
-console.log('Person said ' + game + 'to the game question!');
+console.log('Person said ' + game + ' to the game question!');
 
 
+
+.toLowercase()
 
 
  
