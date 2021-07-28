@@ -7,9 +7,12 @@ body {
 }
 
 header {
-    outline: dashed purple;
+    outline: solid black;
 }
 
+h1 {
+    outline: dotted black;
+}
 
 nav {
     background-color: #333; 
