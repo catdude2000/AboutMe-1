@@ -2,13 +2,13 @@
 console.log('js/app.js file is connected'); 
 
 function greeting() {
-    var name=prompt("What is your Name?");
-} 
+    var person = prompt("Hi! What is your Name?");
+}       alert("Welcome to the Game, " + person + '!');
 
 greeting()
 
 function question1() {
-    var name=prompt("");
+    var one = prompt("");
 }
 
 question1()
