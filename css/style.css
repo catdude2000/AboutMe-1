@@ -57,7 +57,12 @@ main {
     box-sizing: border-box;
     width: 500px;
     padding: 10px;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 5px 10px 10px;
+}
+
+#sibsImg {
+    box-sizing: border-box;
+    width: 300px;
 }
 
 #otherSpot {
