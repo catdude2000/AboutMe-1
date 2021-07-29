@@ -15,6 +15,10 @@ if (game === 'no'){
   alert('Too bad!');
 }
 
+else {
+  alert('Here we go!');
+}
+
 let userPoints = 0;
 
 let one = prompt('Do I have a dog named Riku?');
