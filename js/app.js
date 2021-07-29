@@ -1,47 +1,161 @@
 'use strict';
 console.log('app.js file is connected');
 
-// let person = prompt('Hello! What is your name?').toLowerCase();
-// console.log('Person name is: ' + person);
+// creates person as global variable
+let person;
 
-// let game = prompt('Welcome, ' + person + '! Are you ready to play the game?').toLowerCase();
-// console.log(person + ' said ' + game + ' to the game question!');
+function intro(){
 
-// if (game === 'yes'){
-//   alert('Good!');
-// }
+   person = prompt('Hello! What is your name?');
+    console.log('Person name is: ' + person);
 
-// if (game === 'no'){
-//   alert('Too bad!');
-// }
+  let game = prompt('Welcome, ' + person + '! Are you ready to play the game?').toLowerCase();
+    console.log(person + ' said ' + game + ' to the game question!');
 
-// let userPoints = 0;
+  if (game === 'yes'){
+    alert('Good!');
+  }
 
-// alert('You currently have zero points! Here we go!');
+  if (game === 'no'){
+    alert('Too bad!');
+  }
+}
 
-// let one = prompt('Do I have a dog named Riku?').toLowerCase();
-// console.log(person + ' answered ' + one + ' to the first question!');
+intro();
 
-// if (one === 'yes'){
-//   // console.log('Yes was the right answer!');
-//   userPoints += 1;
-//   alert ('Correct! He\'s a good boy!');
-//   console.log(person + ' now has ' + userPoints + ' points!');
-// }
+let userPoints = 0;
 
-// if (one === 'no'){
-//   // console.log('Yes was the right answer!');
-//   userPoints += 0;
-//   alert('Sorry, that\'s incorrect! No points!');
-//   console.log(person + ' now has ' + userPoints + ' points!');
-//   alert('You currently have ' + userPoints + ' points!');
-// }
+alert('You currently have zero points! Here we go!');
 
-// else {
-//   alert('Try again with yes or no!');
-//   console.log(person + ' answered in the wrong format!');
-//   console.log(person + ' still has ' + userPoints + ' points!');
-// }
+function one (){
+  let one = prompt('Do I have a dog named Riku?').toLowerCase();
+  console.log(person + ' answered ' + one + ' to the first question!');
+
+  if (one === 'yes'){
+    console.log('Yes was the right answer!');
+    userPoints += 1;
+    alert ('Correct! He\'s a good boy!');
+    console.log(person + ' now has ' + userPoints + ' points!');
+    return;
+  }
+  if (one === 'no'){
+    console.log('Yes was the right answer!');
+    userPoints += 0;
+    alert('Sorry, that\'s incorrect! No points!');
+    console.log(person + ' now has ' + userPoints + ' points!');
+    alert('You currently have ' + userPoints + ' points!');
+    return
+  } else  {
+    alert('Try again with yes or no!');
+    console.log(person + ' answered in the wrong format!');
+    console.log(person + ' still has ' + userPoints + ' points!');
+  }
+}
+one();
+
+function two (){
+  let two = prompt('Do I have a dog named Riku?').toLowerCase();
+  console.log(person + ' answered ' + two + ' to the first question!');
+
+  if (two === 'yes'){
+    console.log('Yes was the right answer!');
+    userPoints += 1;
+    alert ('Correct! He\'s a good boy!');
+    console.log(person + ' now has ' + userPoints + ' points!');
+    return;
+  }
+  if (two === 'no'){
+    console.log('Yes was the right answer!');
+    userPoints += 0;
+    alert('Sorry, that\'s incorrect! No points!');
+    console.log(person + ' now has ' + userPoints + ' points!');
+    alert('You currently have ' + userPoints + ' points!');
+    return;
+  } else {
+    alert('Try again with yes or no!');
+    console.log(person + ' answered in the wrong format!');
+    console.log(person + ' still has ' + userPoints + ' points!');
+  }
+}
+two();
+
+function three(){
+  let three = prompt('Do I have a dog named Riku?').toLowerCase();
+  console.log(person + ' answered ' + three + ' to the first question!');
+
+  if (three === 'yes'){
+    console.log('Yes was the right answer!');
+    userPoints += 1;
+    alert ('Correct! He\'s a good boy!');
+    console.log(person + ' now has ' + userPoints + ' points!');
+    return;
+  } else if(three === 'no'){
+    console.log('Yes was the right answer!');
+    alert('Sorry, that\'s incorrect! No points!');
+    console.log(person + ' now has ' + userPoints + ' points!');
+    alert('You currently have ' + userPoints + ' points!');
+    return;
+  } else {
+    alert('Try again with yes or no!');
+    console.log(person + ' answered in the wrong format!');
+    console.log(person + ' still has ' + userPoints + ' points!');
+  }
+}
+three();
+
+function four (){
+  let four = prompt('Do I have a dog named Riku?').toLowerCase();
+  console.log(person + ' answered ' + four + ' to the first question!');
+
+  if (four === 'yes'){
+    console.log('Yes was the right answer!');
+    userPoints += 1;
+    alert ('Correct! He\'s a good boy!');
+    console.log(person + ' now has ' + userPoints + ' points!');
+    return;
+  }
+
+  if (four === 'no'){
+    console.log('Yes was the right answer!');
+    userPoints += 0;
+    alert('Sorry, that\'s incorrect! No points!');
+    console.log(person + ' now has ' + userPoints + ' points!');
+    alert('You currently have ' + userPoints + ' points!');
+    return;
+  }
+
+  else {
+    alert('Try again with yes or no!');
+    console.log(person + ' answered in the wrong format!');
+    console.log(person + ' still has ' + userPoints + ' points!');
+  }
+}
+four();
+
+function five(){
+  let five = prompt('Do I have a dog named Riku?').toLowerCase();
+  console.log(person + ' answered ' + five + ' to the first question!');
+
+  if (five === 'yes'){
+    console.log('Yes was the right answer!');
+    userPoints += 1;
+    alert ('Correct! He\'s a good boy!');
+    console.log(person + ' now has ' + userPoints + ' points!');
+    return;
+  } if (five === 'no'){
+    console.log('Yes was the right answer!');
+    userPoints += 0;
+    alert('Sorry, that\'s incorrect! No points!');
+    console.log(person + ' now has ' + userPoints + ' points!');
+    alert('You currently have ' + userPoints + ' points!');
+    return;
+  } else {
+    alert('Try again with yes or no!');
+    console.log(person + ' answered in the wrong format!');
+    console.log(person + ' still has ' + userPoints + ' points!');
+  }
+}
+five();
 
 let numQ = 3;
 let chances = 4;
@@ -56,22 +170,22 @@ if (userResp != numQ)
 
 // create an array
 
-let choices = ['CHOICE1', 'CHOICE2', 'CHOICE3'];
-console.log(choices.length);
+// let choices = ['CHOICEA', 'CHOICEB', 'CHOICEC'];
+// console.log(choices.length);
 
-let attempts = 0;
-let correctAnswer = 2;
+// let attempts = 0;
+// let correctAnswer = 2;
 
-while (attempts!== 7){
-  let userAns = prompt('Which choice is correct?');
-  let userAnsTrim = userAns.toUpperCase().trim();
-  console.log('userAnsTrim', userAnsTrim);
-}
+// while (attempts!== 7){
+//   let userAns = prompt('Which choice is correct?');
+//   let userAnsTrim = userAns.toUpperCase().trim();
+//   console.log('userAnsTrim', userAnsTrim);
+// }
 
-if (choices.indexOf(userAnsTrim) >= 0){
-  correctAnswer = correctAnswer += 1;
+// if (choices.indexOf(userAnsTrim) >= 0){
+//   correctAnswer = correctAnswer += 1;
 
-}
+// }
 
 
 
