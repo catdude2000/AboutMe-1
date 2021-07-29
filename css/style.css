@@ -18,6 +18,7 @@ nav {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 ul {
@@ -29,7 +30,7 @@ ul {
 li {
     display: inline;
     padding: 10px;
-    background-color: palegreen;
+    list-style-type: none;
 }  
 
 main {
@@ -37,22 +38,29 @@ main {
 }
 
 #aboutSpot {
-   /* background-color: deeppink; */
     outline: solid black;
     float: left;
+    box-sizing: content-box;
 }
 
 #familySpot {
-    outline: dotted black;
+    outline: solid black;
+    box-sizing: content-box;
 
 }
 
 #otherSpot {
-    outline: dotted black;
+    outline: solid black;
+    box-sizing: content-box;
 }
 
 #workSpot {
-    outline: dotted black;
+    outline: dashed black;
+    box-sizing: border-box;
+}
+
+ol {
+
 }
 
 footer {
