@@ -40,11 +40,21 @@ main {
     outline: dotted black;
 }
 
-#aboutspot {
+#aboutSpot {
     background-color: deeppink;
+    outline: solid black;
+    float: left;
 }
 
-#workspot {
+#familySpot {
+
+}
+
+#otherSpot {
+
+}
+
+#workSpot {
     outline: cyan;
 }
 
