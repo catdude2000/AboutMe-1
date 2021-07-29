@@ -36,8 +36,9 @@ if (one === 'yes'){
 if (one === 'no'){
   // console.log('Yes was the right answer!');
   userPoints += 0;
-  alert('Sorry, that\'s incorrect!');
+  alert('Sorry, that\'s incorrect! No points!');
   console.log(person + ' now has ' + userPoints + ' points!');
+  alert('You currently have ' + userPoints + ' points!');
 }
 
 else {
