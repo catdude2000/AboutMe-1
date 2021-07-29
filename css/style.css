@@ -1,5 +1,5 @@
 body {
-    background-color: pink;
+    /* background-color: cadetblue; */
 }
 
 header {
@@ -37,21 +37,22 @@ main {
 }
 
 #aboutSpot {
-    background-color: deeppink;
+   /* background-color: deeppink; */
     outline: solid black;
     float: left;
 }
 
 #familySpot {
+    outline: dotted black;
 
 }
 
 #otherSpot {
-
+    outline: dotted black;
 }
 
 #workSpot {
-    outline: cyan;
+    outline: dotted black;
 }
 
 footer {
