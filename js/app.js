@@ -49,9 +49,6 @@ else {
 
 
 
-
-
-
 // .toLowercase()
 
 // 5 yes or no questions, with lowercase validation
