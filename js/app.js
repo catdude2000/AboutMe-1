@@ -8,24 +8,26 @@ console.log('Person name is: ' + person);
 let game = prompt('Welcome, ' + person + '! Are you ready to play the game?');
 console.log('Person said ' + game + ' to the game question!');
 
-var userPoints = 0;
+let userPoints = 0;
 
-var one = prompt('Do I have a dog named Riku?');
+let one = prompt('Do I have a dog named Riku?');
 one.toLowerCase();
 
-if (one === "yes"){
+if (one === 'yes'){
   console.log(one);
-  alert ("Correct! He's a good boy!");
+  userPoints += 1;
+  alert ('Correct! He\'s a good boy!');
+  console.log(person + ' now has ' + userPoints + ' points!');
 }
 
-userPoints += 1;
-console.log(person + ' now has' + userPoints + ' points!');
-
-else if (answer === "no") {
-  alert("Sorry, that's incorrect!");
+if (one === 'no'){
+  console.log(one);
+  userPoints += 0;
+  alert('Sorry, that\'s incorrect!');
+  console.log(person + ' now has ' + userPoints + ' points!');
 }
 else {
-  alert("Try again with yes or no!");
+  alert('Try again with yes or no!');
 }
 
 
