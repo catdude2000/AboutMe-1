@@ -5,7 +5,7 @@ let person = prompt('Hello! What is your name?').toLowerCase();
 console.log('Person name is: ' + person);
 
 let game = prompt('Welcome, ' + person + '! Are you ready to play the game?').toLowerCase();
-console.log('Person said ' + game + ' to the game question!');
+console.log(person + ' said ' + game + ' to the game question!');
 
 if (game === 'yes'){
   alert('Good!');
@@ -21,11 +21,13 @@ else {
 
 let userPoints = 0;
 
+alert('You currently have zero points!');
+
 let one = prompt('Do I have a dog named Riku?');
 one.toLowerCase();
+console.log(person + ' answered ' + one + ' to the first question!');
 
 if (one === 'yes'){
-  console.log(one);
   // console.log('Yes was the right answer!');
   userPoints += 1;
   alert ('Correct! He\'s a good boy!');
@@ -33,7 +35,6 @@ if (one === 'yes'){
 }
 
 if (one === 'no'){
-  console.log(one);
   // console.log('Yes was the right answer!');
   userPoints += 0;
   alert('Sorry, that\'s incorrect!');
