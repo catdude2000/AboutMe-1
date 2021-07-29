@@ -43,6 +43,44 @@ console.log('app.js file is connected');
 //   console.log(person + ' still has ' + userPoints + ' points!');
 // }
 
+let numQ = 3;
+let chances = 4;
+
+while (chances > 0) {
+  chances = chances -1;
+
+  let userResp = prompt ('Guess a number between 1 and 10!');
+}
+
+if (userResp != numQ)
+
+// create an array
+
+let choices = ['CHOICE1', 'CHOICE2', 'CHOICE3'];
+console.log(choices.length);
+
+let attempts = 0;
+let correctAnswer = 2;
+
+while (attempts!== 7){
+  let userAns = prompt('Which choice is correct?');
+  let userAnsTrim = userAns.toUpperCase().trim();
+  console.log('userAnsTrim', userAnsTrim);
+}
+
+if (choices.indexOf(userAnsTrim) >= 0){
+  correctAnswer = correctAnswer += 1;
+
+}
+
+
+
+
+
+
+
+
+
 
 
 // .toLowercase()

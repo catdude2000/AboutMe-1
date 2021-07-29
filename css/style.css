@@ -5,11 +5,13 @@ body {
 header {
     outline: solid black;
     box-sizing: border-box;
-    width: 500px;
+    width: 800px;
+    text-align: center;
 }
 
 h1 {
     color: black;
+    font-size: 50px;
 }
 
 nav {
@@ -18,7 +20,7 @@ nav {
     padding: 5px;
     text-decoration: none;
     box-sizing: border-box;
-    width: 500px;
+    width: 800px;
     height: 30px;
     margin-left: 10px;
 }
@@ -47,28 +49,48 @@ main {
     outline: solid black;
     float: left;
     box-sizing: border-box;
-    width: 500px;
+    width: 800px;
     padding: 10px;
     margin: 10px 10px 10px 10px;
+}
+
+#catsImg {
+    box-sizing: border-box;
+    width: 250px;
+}
+
+#tronImg {
+    box-sizing: border-box;
+    width: 250px;
 }
 
 #familySpot {
     outline: solid black;
     box-sizing: border-box;
-    width: 500px;
+    width: 800px;
     padding: 10px;
     margin: 10px 5px 10px 10px;
 }
 
 #sibsImg {
     box-sizing: border-box;
-    width: 300px;
+    width: 250px;
+}
+
+#momImg {
+    box-sizing: border-box;
+    width: 250px;
+}
+
+#dadImg {
+    box-sizing: border-box;
+    width: 250px;
 }
 
 #otherSpot {
     outline: solid black;
     box-sizing: border-box;
-    width: 500px;
+    width: 800px;
     padding: 10px; 
     margin: 10px 10px 10px 10px;
 }
@@ -76,7 +98,7 @@ main {
 #workEduSpot {
     outline: dashed black;
     box-sizing: border-box;
-    width: 500px;
+    width: 800px;
     padding: 10px;
     margin: 10px 10px 10px 10px;
 }
@@ -84,7 +106,7 @@ main {
 #topTenSpot {
     outline: solid black;
     box-sizing: border-box;
-    width: 500px;
+    width: 800px;
     padding: 10px;
     margin: 10px 10px 10px 10px;
 
@@ -96,5 +118,5 @@ footer {
     padding: 10px;
     margin: 10px 10px 10px 10px;
     height: 100px;
-    width: 500px;
+    width: 800px;
 }
