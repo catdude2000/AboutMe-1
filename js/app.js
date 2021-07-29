@@ -2,11 +2,18 @@
 console.log('app.js file is connected');
 
 let person = prompt('Hello! What is your name?').toLowerCase();
-
 console.log('Person name is: ' + person);
 
-let game = prompt('Welcome, ' + person + '! Are you ready to play the game?');
+let game = prompt('Welcome, ' + person + '! Are you ready to play the game?').toLowerCase();
 console.log('Person said ' + game + ' to the game question!');
+
+if (game === 'yes'){
+  alert('Good!');
+}
+
+if (game === 'no'){
+  alert(Too bad!);
+}
 
 let userPoints = 0;
 
@@ -15,6 +22,7 @@ one.toLowerCase();
 
 if (one === 'yes'){
   console.log(one);
+  // console.log('Yes was the right answer!');
   userPoints += 1;
   alert ('Correct! He\'s a good boy!');
   console.log(person + ' now has ' + userPoints + ' points!');
@@ -22,13 +30,18 @@ if (one === 'yes'){
 
 if (one === 'no'){
   console.log(one);
+  // console.log('Yes was the right answer!');
   userPoints += 0;
   alert('Sorry, that\'s incorrect!');
   console.log(person + ' now has ' + userPoints + ' points!');
 }
+
 else {
   alert('Try again with yes or no!');
+  console.log(person + ' answered in the wrong format!');
+  console.log(person + ' still has ' + userPoints + ' points!')
 }
+
 
 
 
