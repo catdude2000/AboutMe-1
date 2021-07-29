@@ -23,8 +23,7 @@ let userPoints = 0;
 
 alert('You currently have zero points!');
 
-let one = prompt('Do I have a dog named Riku?');
-one.toLowerCase();
+let one = prompt('Do I have a dog named Riku?').toLowerCase();
 console.log(person + ' answered ' + one + ' to the first question!');
 
 if (one === 'yes'){
