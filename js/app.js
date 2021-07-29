@@ -12,7 +12,7 @@ if (game === 'yes'){
 }
 
 if (game === 'no'){
-  alert(Too bad!);
+  alert('Too bad!');
 }
 
 let userPoints = 0;
@@ -39,7 +39,7 @@ if (one === 'no'){
 else {
   alert('Try again with yes or no!');
   console.log(person + ' answered in the wrong format!');
-  console.log(person + ' still has ' + userPoints + ' points!')
+  console.log(person + ' still has ' + userPoints + ' points!');
 }
 
 
