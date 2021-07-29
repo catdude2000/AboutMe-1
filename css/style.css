@@ -75,6 +75,10 @@ main {
     margin: 10px 10px 10px 10px;
 }
 
+#topTenSpot {
+    outline: solid black;
+}
+
 footer {
     outline: solid black;
     box-sizing: border-box;

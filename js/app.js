@@ -15,13 +15,9 @@ if (game === 'no'){
   alert('Too bad!');
 }
 
-else {
-  alert('Here we go!');
-}
-
 let userPoints = 0;
 
-alert('You currently have zero points!');
+alert('You currently have zero points! Here we go!');
 
 let one = prompt('Do I have a dog named Riku?').toLowerCase();
 console.log(person + ' answered ' + one + ' to the first question!');
