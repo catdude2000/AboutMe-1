@@ -1,11 +1,32 @@
 'use strict';
 console.log('app.js file is connected');
 
-let person = prompt('Hello! What is your name?');
+let person = prompt('Hello! What is your name?').toLowerCase();
+
 console.log('Person name is: ' + person);
 
 let game = prompt('Welcome, ' + person + '! Are you ready to play the game?');
 console.log('Person said ' + game + ' to the game question!');
+
+var userPoints = 0;
+
+var one = prompt('Do I have a dog named Riku?');
+one.toLowerCase();
+
+if (one === "yes"){
+  console.log(one);
+  alert ("Correct! He's a good boy!");
+}
+
+userPoints += 1;
+console.log(person + ' now has' + userPoints + ' points!');
+
+else if (answer === "no") {
+  alert("Sorry, that's incorrect!");
+}
+else {
+  alert("Try again with yes or no!");
+}
 
 
 
