@@ -1,47 +1,47 @@
 'use strict';
 console.log('app.js file is connected');
 
-let person = prompt('Hello! What is your name?').toLowerCase();
-console.log('Person name is: ' + person);
+// let person = prompt('Hello! What is your name?').toLowerCase();
+// console.log('Person name is: ' + person);
 
-let game = prompt('Welcome, ' + person + '! Are you ready to play the game?').toLowerCase();
-console.log(person + ' said ' + game + ' to the game question!');
+// let game = prompt('Welcome, ' + person + '! Are you ready to play the game?').toLowerCase();
+// console.log(person + ' said ' + game + ' to the game question!');
 
-if (game === 'yes'){
-  alert('Good!');
-}
+// if (game === 'yes'){
+//   alert('Good!');
+// }
 
-if (game === 'no'){
-  alert('Too bad!');
-}
+// if (game === 'no'){
+//   alert('Too bad!');
+// }
 
-let userPoints = 0;
+// let userPoints = 0;
 
-alert('You currently have zero points! Here we go!');
+// alert('You currently have zero points! Here we go!');
 
-let one = prompt('Do I have a dog named Riku?').toLowerCase();
-console.log(person + ' answered ' + one + ' to the first question!');
+// let one = prompt('Do I have a dog named Riku?').toLowerCase();
+// console.log(person + ' answered ' + one + ' to the first question!');
 
-if (one === 'yes'){
-  // console.log('Yes was the right answer!');
-  userPoints += 1;
-  alert ('Correct! He\'s a good boy!');
-  console.log(person + ' now has ' + userPoints + ' points!');
-}
+// if (one === 'yes'){
+//   // console.log('Yes was the right answer!');
+//   userPoints += 1;
+//   alert ('Correct! He\'s a good boy!');
+//   console.log(person + ' now has ' + userPoints + ' points!');
+// }
 
-if (one === 'no'){
-  // console.log('Yes was the right answer!');
-  userPoints += 0;
-  alert('Sorry, that\'s incorrect! No points!');
-  console.log(person + ' now has ' + userPoints + ' points!');
-  alert('You currently have ' + userPoints + ' points!');
-}
+// if (one === 'no'){
+//   // console.log('Yes was the right answer!');
+//   userPoints += 0;
+//   alert('Sorry, that\'s incorrect! No points!');
+//   console.log(person + ' now has ' + userPoints + ' points!');
+//   alert('You currently have ' + userPoints + ' points!');
+// }
 
-else {
-  alert('Try again with yes or no!');
-  console.log(person + ' answered in the wrong format!');
-  console.log(person + ' still has ' + userPoints + ' points!');
-}
+// else {
+//   alert('Try again with yes or no!');
+//   console.log(person + ' answered in the wrong format!');
+//   console.log(person + ' still has ' + userPoints + ' points!');
+// }
 
 
 
